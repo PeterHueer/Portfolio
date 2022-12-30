@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "concurrently \"next dev --turbo\" \"tailwindcss -i styles/globals.css -o styles/dist.css -w\"",
+    "build": "tailwindcss -m -i styles/globals.css -o styles/dist.css && next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -20,13 +20,15 @@
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
+    "autoprefixer": "^10.4.13",
+    "concurrently": "^7.6.0",
     "eslint": "7.32.0",
     "eslint-config-custom": "*",
-    "tailwind": "*",
-    "tsconfig": "*",
-    "typescript": "^4.5.3",
-    "autoprefixer": "^10.4.13",
+    "next-transpile-modules": "^10.0.0",
     "postcss": "^8.4.20",
-    "tailwindcss": "^3.2.4"
+    "tailwind": "*",
+    "tailwindcss": "^3.2.4",
+    "tsconfig": "*",
+    "typescript": "^4.5.3"
   }
 }

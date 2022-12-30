@@ -1,5 +1,6 @@
 import Head from "./head";
-import "../styles/global.css";
+import "../styles/dist.css";
+import Navigation from "ui/Navigation";
 
 export default function RootLayout({
   children,
@@ -9,7 +10,10 @@ export default function RootLayout({
   return (
     <html>
       <Head />
-      <body>{children}</body>
+      <body>
+        <Navigation />
+        <div>{children}</div>
+      </body>
     </html>
   );
 }
