@@ -1,5 +1,5 @@
 // .storybook/preview.js
-import "../apps/web/styles/tailwind.css";
+import "tailwind-config/tailwind.css";
 import * as NextImage from "next/image";
 
 const OriginalNextImage = NextImage.default;

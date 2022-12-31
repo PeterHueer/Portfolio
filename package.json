@@ -30,6 +30,7 @@
     "eslint-config-custom": "*",
     "postcss": "^8.4.20",
     "prettier": "latest",
+    "tailwind-config": "*",
     "tailwindcss": "^3.2.4",
     "turbo": "^1.6.3"
   },
