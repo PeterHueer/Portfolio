@@ -1,6 +1,6 @@
-import Head from "./head";
-import "../styles/dist.css";
+import "../styles/tailwind.css";
 import Navigation from "ui/Navigation";
+import Head from "./head";
 
 export default function RootLayout({
   children,

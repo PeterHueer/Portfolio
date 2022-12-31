@@ -8,30 +8,36 @@
   ],
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev --parallel",
+    "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
-    "eslint-config-custom": "*",
-    "prettier": "latest",
-    "turbo": "latest",
-    "@storybook/react": "^6.5.15",
-    "@storybook/addon-links": "^6.5.15",
-    "@storybook/addon-essentials": "^6.5.15",
+    "@babel/core": "^7.20.7",
     "@storybook/addon-actions": "^6.5.15",
+    "@storybook/addon-essentials": "^6.5.15",
     "@storybook/addon-interactions": "^6.5.15",
-    "@storybook/testing-library": "^0.0.13",
+    "@storybook/addon-links": "^6.5.15",
+    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/builder-webpack5": "^6.5.15",
     "@storybook/manager-webpack5": "^6.5.15",
-    "@babel/core": "^7.20.7",
-    "babel-loader": "^8.3.0"
+    "@storybook/react": "^6.5.15",
+    "@storybook/testing-library": "^0.0.13",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^8.3.0",
+    "eslint-config-custom": "*",
+    "postcss": "^8.4.20",
+    "prettier": "latest",
+    "tailwindcss": "^3.2.4",
+    "turbo": "^1.6.3"
   },
   "engines": {
     "node": ">=14.0.0"
   },
   "packageManager": "npm@8.19.2",
-  "dependencies": {}
+  "dependencies": {
+    "next": "^13.1.1"
+  }
 }

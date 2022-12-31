@@ -2,17 +2,23 @@
   "$schema": "https://turbo.build/schema.json",
   "pipeline": {
     "build": {
-      "dependsOn": ["^build"],
+      "dependsOn": ["tailwind:generate", "^build"],
       "outputs": ["dist/**", ".next/**", "storybook-static/**"]
     },
     "lint": {
       "outputs": []
     },
     "dev": {
-      "cache": false
+      "cache": false,
+      "dependsOn": ["^tailwind:generate"]
+    },
+    "tailwind:generate": {
+      "cache": false,
+      "outputs": ["dist.css"]
     },
     "storybook": {
-      "cache": false
+      "cache": false,
+      "dependsOn": ["^tailwind:generate"]
     }
   }
 }

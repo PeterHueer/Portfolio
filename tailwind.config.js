@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./app/**/*.{js,ts,jsx,tsx}"],
+  content: ["./apps/packages/**/*.stories.@(js|jsx|ts|tsx)"],
   theme: {
     extend: {},
   },
