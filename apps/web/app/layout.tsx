@@ -1,4 +1,4 @@
-import "../styles/tailwind.css";
+import "tailwind-config/tailwind.css";
 import Navigation from "ui/Navigation";
 import Head from "./head";
 
