@@ -1,6 +1,6 @@
-const config = require("tailwind-config/default.config");
+const config = require("tailwind-config/tailwind.config");
 module.exports = {
-  content: ["./apps/packages/**/*.stories.@(js|jsx|ts|tsx)"],
+  content: ["./packages/**/*.{js,ts,jsx,tsx}"],
   theme: config.theme,
   plugins: config.plugins,
 };

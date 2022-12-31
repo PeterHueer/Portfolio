@@ -13,9 +13,9 @@
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
     "react": "^18.2.0",
+    "tailwind-config": "*",
     "tailwindcss": "^3.2.4",
     "tsconfig": "*",
-    "tailwind-config": "*",
     "typescript": "^4.9.4"
   },
   "dependencies": {
