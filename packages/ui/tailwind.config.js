@@ -1,6 +1,5 @@
-const config = require("tailwind-config/tailwind.config");
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./**/*.{js,ts,jsx,tsx}"],
-  theme: config.theme,
-  plugins: config.plugins,
+  presets: [require("tailwind-config/tailwind-preset.config")],
 };

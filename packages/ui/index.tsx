@@ -1,2 +1,2 @@
-import * as React from "react";
-export * from "./Navigation";
+import "tailwind-config/tailwind.css";
+export * from "./navigation";
