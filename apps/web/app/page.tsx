@@ -1,9 +1,12 @@
 import * as React from "react";
+import Portfolio from "./portfolio/page";
+import { LandingPage } from "ui/landing-page";
 
-export default function Web() {
+export default function Home() {
   return (
     <div>
-      <section className="bg-primary h-screen flex flex-wrap grid place-items-center"></section>
+      <LandingPage />
+      <Portfolio />
     </div>
   );
 }

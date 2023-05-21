@@ -15,13 +15,13 @@ export function BurgerButton({
   if (active) {
     return (
       <button onClick={onClick}>
-        <RxCross1 size="25" />
+        <RxCross1 size="35" />
       </button>
     );
   }
   return (
     <div onClick={onClick}>
-      <RxHamburgerMenu size="25" />
+      <RxHamburgerMenu size="35" />
     </div>
   );
 }

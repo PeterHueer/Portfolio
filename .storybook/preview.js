@@ -1,7 +1,7 @@
 // .storybook/preview.js
 import "tailwind-config/tailwind.css";
 import * as NextImage from "next/image";
-const config = require("tailwind-config/tailwind-preset.config");
+import "!style-loader!css-loader!postcss-loader!tailwindcss/tailwind.css";
 
 const OriginalNextImage = NextImage.default;
 

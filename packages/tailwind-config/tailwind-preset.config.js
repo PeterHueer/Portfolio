@@ -1,5 +1,10 @@
+const path = require("path");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  content: [
+    path.join(__dirname, "./pages/**/*.{js,ts,jsx,tsx}"),
+    path.join(__dirname, "./components/**/*.{js,ts,jsx,tsx}"),
+  ],
   theme: {
     extend: {
       animation: {
@@ -22,9 +27,10 @@ module.exports = {
         },
       },
       colors: {
-        primary: "#E3B505",
-        secondary: "#271033",
-        neutral: "#EEEEFF",
+        primary: "#FCA311",
+        secondary: "#14213D",
+        secondaryDark: "#090f1c",
+        neutral: "#000000",
         "text-light": "#EEEEFF",
         "text-dark": "#271033",
         accent: "#E3B505",

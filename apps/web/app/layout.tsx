@@ -11,9 +11,10 @@ export default function RootLayout({
   return (
     <html>
       <Head />
-      <body>
+      <body className="bg-secondary">
         <Navigation />
-        <div>{children}</div>
+        <div className="h-[75px]"></div>
+        {children}
       </body>
     </html>
   );
