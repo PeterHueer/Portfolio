@@ -24,6 +24,7 @@ export function LandingPage(): JSX.Element {
           seamlessly blend form and function.
         </h1>
       </div>
+      <div className="p-4"></div>
       <a href="#portfolio" className="w-full grid place-items-center">
         <div className="animate-bounce">
           <div className="border-2 border-gray-500 rounded-full p-2 bg-gray-800">
