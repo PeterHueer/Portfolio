@@ -1,22 +1,15 @@
 import * as React from "react";
-import { Section } from "../section";
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
-
-type RefCardProps = {
-  title: string;
-  caption: string;
-  imgUrl?: string;
-  href: string;
-};
+import { PortfolioItem } from "@phueer/types";
 
 export function RefCard({
   title,
   caption,
   imgUrl,
   href,
-}: RefCardProps): JSX.Element {
+}: PortfolioItem): JSX.Element {
   return (
     <div className="rounded-2xl bg-[#090f1c] p-5 text-white">
       {imgUrl && (
