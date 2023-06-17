@@ -2,7 +2,7 @@ import * as React from "react";
 import { Story } from "@storybook/react";
 import Navigation from "./index";
 
-export default {
+const main = {
   title: "Components/Navigation",
   parameters: {
     backgrounds: {
@@ -10,6 +10,8 @@ export default {
     },
   },
 };
+
+export default main;
 
 export function Default(): ReturnType<Story> {
   return <Navigation />;

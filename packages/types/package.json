@@ -1,0 +1,14 @@
+{
+  "name": "@phueer/types",
+  "version": "0.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx,.mts,.cjs,.mjs,.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "*"
+  }
+}
