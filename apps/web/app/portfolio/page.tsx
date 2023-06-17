@@ -6,7 +6,7 @@ import { portfolio } from "@phueer/texts/portfolio";
 export default function Portfolio(): JSX.Element {
   return (
     <Section id="portfolio">
-      <div className="grid gap-2">
+      <div className="grid md:grid-cols-3 xl:grid-cols-5 gap-2 flex-wrap">
         {portfolio.map((portfolioItem) => (
           <RefCard {...portfolioItem} />
         ))}

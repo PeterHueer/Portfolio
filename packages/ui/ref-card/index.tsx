@@ -18,7 +18,7 @@ export function RefCard({
   href,
 }: RefCardProps): JSX.Element {
   return (
-    <div className="rounded-2xl bg-[#090f1c] w-full p-5 text-white">
+    <div className="rounded-2xl bg-[#090f1c] p-5 text-white">
       {imgUrl && (
         <Image
           src={imgUrl}
