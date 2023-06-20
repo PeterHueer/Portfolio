@@ -7,14 +7,14 @@ import { PortfolioItem } from "@phueer/types";
 export function RefCard({
   title,
   caption,
-  imgUrl,
+  image: imgUrl,
   href,
 }: PortfolioItem): JSX.Element {
   return (
     <div className="rounded-2xl bg-[#090f1c] p-5 text-white">
       {imgUrl && (
         <Image
-          src={imgUrl}
+          src={imgUrl?.url}
           alt="unicepta product photos"
           width={600}
           height={388}

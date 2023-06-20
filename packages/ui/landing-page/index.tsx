@@ -16,7 +16,7 @@ export function LandingPage(): JSX.Element {
         />
         <div className="p-4"></div>
         <h1 className="text-white text-xl border-l-2 border-primary pl-2">
-          I`&apos;m a{" "}
+          I&apos;m a{" "}
           <b className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent-orange">
             skilled fullstack developer and designer
           </b>

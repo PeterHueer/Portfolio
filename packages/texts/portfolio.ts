@@ -8,7 +8,13 @@ export const portfolio: PortfolioItem[] = [
       "Product development of an internal editorial web application " +
       "and a rendered customized digital magazine based on the input of " +
       "the editorial web application.",
-    imgUrl: "/img/unicepta.png",
+    image: {
+      url: "/img/unicepta.png",
+      author: {
+        name: "Unicepta",
+        url: "https://products.unicepta.com/de/unicepta-news-briefing",
+      },
+    },
     href: "/portfolio/executive-news-briefings",
     period: { from: new Date(2022, 5), until: new Date() },
     employer: employer.ubermetrics,
