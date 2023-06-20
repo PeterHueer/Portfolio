@@ -1,6 +1,6 @@
 import * as React from "react";
+import { LandingPage } from "@phueer/ui/landing-page";
 import Portfolio from "./portfolio/page";
-import { LandingPage } from "ui/landing-page";
 
 export default function Home() {
   return (

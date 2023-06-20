@@ -6,6 +6,7 @@
       "outputs": ["dist/**", ".next/**", "storybook-static/**"]
     },
     "lint": {},
+    "tsc": {},
     "dev": {
       "cache": false
     },

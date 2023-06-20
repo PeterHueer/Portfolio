@@ -10,6 +10,8 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
+    "tsc": "turbo run tsc",
+    "tsc:debug": "tsc",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"

@@ -5,7 +5,8 @@
   "types": "./index.tsx",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint . --ext .ts,.tsx,.mts,.cjs,.mjs,.js"
+    "lint": "eslint . --ext .ts,.tsx,.mts,.cjs,.mjs,.js",
+    "tsc": "tsc"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",

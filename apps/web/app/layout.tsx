@@ -1,6 +1,6 @@
 import * as React from "react";
+import Navigation from "@phueer/ui/navigation";
 import "tailwind-config/tailwind.css";
-import Navigation from "../../../packages/ui/navigation";
 import Head from "./head";
 
 export default function RootLayout({
