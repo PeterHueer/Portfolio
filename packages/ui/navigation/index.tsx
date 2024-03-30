@@ -13,7 +13,7 @@ export default function Navigation(): JSX.Element {
 
   return (
     <NavigationMenu.Root
-      className={`flex flex-col bg-neutral fixed flex text-text-light w-full p-5 z-10 overflow-hidden transition-[height] ease-in-out duration-200 select-none ${
+      className={`flex flex-col bg-neutral bg-opacity-90 backdrop-blur fixed text-text-light w-full p-5 z-10 overflow-hidden transition-[height] ease-in-out duration-200 select-none ${
         navActive ? "h-screen" : "h-auto"
       }`}
     >

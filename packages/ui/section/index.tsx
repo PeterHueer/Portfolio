@@ -5,7 +5,7 @@ export function Section({
   children,
 }: React.PropsWithChildren & { id: string }): JSX.Element {
   return (
-    <section id={id} className="flex justify-between flex-wrap p-5">
+    <section id={id} className="flex flex-wrap xl:p-5 relative h-[calc(100vh-75px)]">
       {children}
     </section>
   );

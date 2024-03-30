@@ -9,4 +9,5 @@ export type Tags =
   | "Spring"
   | "Camunda"
   | "Kafka"
-  | "TDD";
+  | "TDD"
+  | "Vue.js"

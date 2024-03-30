@@ -1,6 +1,7 @@
 import { Period } from "../times";
 
 export type Employer = {
+  adesso: EmployerData;
   ubermetrics: EmployerData;
   lise: EmployerData;
 };
