@@ -6,7 +6,7 @@ import {BsArrowDown} from "react-icons/bs";
 export function LandingPage(): JSX.Element {
   return (
     <Section id="home">
-      <div className="flex flex-col justify-center xl:mt-0 gap-10">
+      <div className="flex flex-col xl:mt-0 gap-10">
         <Image
           src="/img/profile.png"
           width={666}
